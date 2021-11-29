@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
  <head>
 	 <meta charset="utf-8">
 	 <title>Survey Form</title>
@@ -15,7 +15,7 @@
 			  <input type="text" id="name" placeholder="Enter your name" required><br>
 			
 			  <label for="email" id="email-label">Email: &nbsp;</label><br>
-			  <input type="email" id="email" placeholder="Enter your email" required="email" required><br>
+			  <input type="email" id="email" placeholder="Enter your email" required="Email"><br>
 
 			  <label for="number" id="number-label">Age: &nbsp;</label><br>	
 			  <input type="number" id="number" placeholder ="Enter age btwn 18 and 40" min="18" max="40" class="form-inputs" required> 
@@ -36,13 +36,13 @@
 			  <div class="question"> DO YOU RECOMMEND MICROVERSE TO YOUR FRIENDS? </div><br>
 
 			
-			  <input id="questions" type="radio" name="color" value="black">
+			  <input class="question" type="radio" name="color" value="black">
 			  <label for="question"> YES,Of Course </label> <br>
 
-			  <input id="questions" type="radio" name="color" value="black">
+			  <input class="question" type="radio" name="color" value="black">
 			  <label for="question"> Maybe </label> <br>
 
-			  <input id="questions" type="radio" name="color" value="black">
+			  <input class="question" type="radio" name="color" value="black">
 			  <label for="question"> Not sure </label> 
 			  <br>
 			  <br>
@@ -60,7 +60,7 @@
 		
 
 			  <div class="text-area">Please input your comments</div><br>
-		  	<div class="textarea" id="text_area" placeholder="Please type in your comments here" row="4" cols="50"></div><br>
+		  	<input type="textarea" id="text_area" placeholder="Please type in your comments here" row="4" cols="50"><br>
 
 
         <input type="submit" id="submit" value="Submit Survey" class="submit-button">
