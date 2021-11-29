@@ -1,0 +1,41 @@
+@import url('https://fonts.googleleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.4;
+  background-color: #cee4f8;
+  width: 500px;
+  margin: auto;
+}
+
+form {
+  background: rgba(225, 239, 240, 0.993);
+  padding: 2.5px 2.5px;
+  border-radius: 2px;
+  width: 500px;
+  margin: auto;
+}
+
+.submit-button {
+  width: 100px;
+  padding: 0.75px;
+  background: rgba(231, 238, 238, 0.753);
+  color: rgb(15, 9, 9);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.input-headings {
+  margin: 0 auto 1.25px auto;
+  padding: 0.25px;
+}
+
+.form-inputs {
+  display: block;
+  width: 30%;
+  height: 2px;
+  padding: 0.25px 0.75px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25px;
+}
